@@ -1,0 +1,157 @@
+(footprint "Resistor_1_4W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1aab2e2-75fa-4fc5-a70d-90e12140f4ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Resistor_1/4W"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "372834b6-a534-4f2e-bfc4-0f44f1327518")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96695bbb-ef00-4125-9da0-057ea7c73d2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e66d749-536a-4749-b494-3edf259995a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.7 -1.2)
+		(end -4.700648 -0.74402)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffff01a3-769c-428c-83ca-2372779fbbeb")
+	)
+	(fp_line
+		(start -4.7 -1.2)
+		(end 4.7 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9088f6fb-3fba-4a3d-abd6-9d11ef8d6a38")
+	)
+	(fp_line
+		(start -4.7 1.2)
+		(end -4.700648 0.759221)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "522cca88-9c5d-45d3-9ed4-8d97bb011a4c")
+	)
+	(fp_line
+		(start 4.7 -1.2)
+		(end 4.699162 -0.746723)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d878bcfb-37cb-4abe-a29f-8647b9baeb45")
+	)
+	(fp_line
+		(start 4.7 1.2)
+		(end -4.7 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "25a78679-2da1-4d62-bebf-6265781f95eb")
+	)
+	(fp_line
+		(start 4.7 1.2)
+		(end 4.696381 0.757502)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35174d44-be80-4da9-9c16-89bbdd372fbb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1a09e945-2502-4fa3-a44c-c8d205950ffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 0 180)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06d5efbb-2ee3-4dd4-8b92-3595d49ea1bf")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0 180)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0cf4dd5f-b4ae-4ca8-8c35-04c6901ccf32")
+	)
+	(embedded_fonts no)
+	(model "E:/KiCad/3D/User Library-Res40-Axial 0_25W-220R.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
